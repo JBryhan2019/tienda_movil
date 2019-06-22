@@ -17,7 +17,7 @@ var jwt = require("jsonwebtoken");
 
 
 const storage = multer.diskStorage({
-  destination: function (res, file, cb) {
+  destination: fffffffffffffffffffunction (res, file, cb) {
       try {
           fs.statSync('./public/avatars');
       } catch (e) {
